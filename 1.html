@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <div class="tab">
+        <div class="name">
+            <div class="en">Emma' resume</div>
+        </div>
+        <ul>
+            <li onclick="clickHandler(1)"><span class="ch" id="about">个人</span><span class="en">About me</span></li>
+            <li onclick="clickHandler(2)"><span class="ch" id="skills">技能</span><span class="en">Skills</span></li>
+            <li onclick="clickHandler(3)"><span class="ch" id="portfolio">项目</span><span class="en">Portfolio</span></li>
+            <li onclick="clickHandler(4)"><span class="ch" id="contact">联系</span><span class="en">Contact</span></li>
+
+
+        </ul>
+    </div>
+    <div class="page1 page">
+            <div class="picture">
+                    <div class="circle">
+                            <img src="./img/touxiang.jpg" alt="">
+                    </div>
+                </div>
+                <div class="text">
+                    <p class="en">Emma</p>
+                    <p class="ch">陈晓</p>
+                    <p class="career">前端工程师</p>
+                </div>
+                <hr class="left">
+                <hr class="right">
+                <div class="dots">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="detail">
+                        <ul>
+                                <li>性别：女  <span class="dot"></span></li>
+                                <li>年龄：25周岁 <span class="dot"></span></li>
+                                <li>出生日期：1994.12.27 <span class="dot"></span></li>
+                                <li>民族：汉族 <span class="dot"></span></li>
+                                <li> <span class="dot">专业：计算机科学与技术</span></li>
+                                <li> <span class="dot"></span><span class="a"> 婚姻状况：未婚</span> </li>
+                                <li> <span class="dot"></span><span class="a">政治面貌：团员</span></li>
+                                <li> <span class="dot"></span><span class="a">学历：硕士</span></li>
+                                <li> <span class="dot"></span><span class="a">籍贯：山东</span></li>
+                                    </ul>
+                </div>
+    </div>
+    <div class="page2 clearfix page" >
+    <h2>Skill</h2>
+    <div class="left">
+        <p>熟练掌握<span class="flag">HTML(5)</span>和常用<span class="flag">CSS(3)</span>，具有像素级还原设计稿的能力。具有平均水准之上的审美，追求设计的优雅。</p>
+        <p>熟练掌握原生<span class="flag">Javascript</span>，掌握重要概念如：<span class="flag">原型</span>，<span class="flag">闭包</span>，<span class="flag">作用域链</span>
+            ，<span class="flag">面向对象</span>等。
+            能够根据面向对象思想利用<span class="flag">JS/jQuery</span>封装常用插件。 熟练使用<span class="flag">ES6</span>及<span class="flag">ES7</span>部分新特性。</p>
+        <p>熟悉<span class="flag">Vue框架</span>及相关流行库的使用，理解重要概念如：生命周期，，响应式原理，路由，状态管理等。有相关项目的经验。</p>
+    </div>
+    <div class="right">
+            <p>熟悉<span class="flag">HTTP协议</span>及浏览器渲染原理，了解前端性能优化策略。</p>
+            <p>熟悉<span class="flag">Yarn</span>&<span class="flag">Npm</span>&<span class="flag">Git</span>  </p>
+            <p>熟悉<span class="flag">Webpack</span>打包，优化手段。</p>
+        
+        </div>
+        <div class="skills">
+            <div class="list1"><span>HTML5</span><span>CSS3</span><span>SASS&LESS</span><span>Javascript</span></div>
+            <div class="list2"><span>Vue</span><span>jQuery</span><span>SASS&LESS</span></div>
+            <div class="list3"><span>AJAX</span><span>HTTP</span></div>
+        </div>
+    </div>
+    <div class="page3 page">
+        <h2>Portfolio</h2>
+        <div class="pro0">
+            <div class="name">DEMO</div>
+            <div class="img"><ul>
+                <li><img src="./img/keyborad.png" alt=""></li>
+
+                <li><img src="./img/bikaqiu.png" alt=""></li>
+                <li><img src="./img/canvas.png" alt=""></li>
+            </ul></div>
+            <div class="content">
+                <p>快捷键盘：使用键盘快捷键访问各大网站的官网，同时可编辑快捷键所对应网站 </p>
+                        <p>  比卡丘：通过js控制画一个比卡丘的动画，同时显示控制动画的代码</p>
+                        <p>  canvas:利用canvas生成一个画板，可以调节笔的粗细，添加橡皮擦功能</p>
+                        <p >技术栈： HTM + CSS + JS + Canvas</p>
+           
+            </div>
+            <div class="button">
+               <a href="https://github.com/kris12138/demo" class="code">code</a>
+               <a href="https://github.com/kris12138/demo" class="view">view</a>
+
+            </div>
+ 
+
+        </div>
+        <div class="pro1">
+            <div class="name">音乐播放器</div>
+            <div class="img"><ul>
+                <li><img src="./img/index.png" alt=""></li>
+
+                <li><img src="./img/list.png" alt=""></li>
+                <li><img src="./img/song.png" alt=""></li>
+            </ul></div>
+            <div class="content">
+                <p>音乐播放器项目是模拟网易云音乐的简易音乐播放器，应用jQuery，实现获得随机歌曲和随机列表的功能，
+                    同时实现播放暂停（点击切换播放状态），音量调节（鼠标移入滑动设置音量大小），歌曲进度条
+                    （可点击切换进度直接跳，也可以点击小圆点拖拽切换进度）
+                        实时歌词（点击词，切换歌词界面，根据实时进度自动滚动歌词）等场景</p>
+                <p >技术栈： Iconfont（使用矢量图标库添加播放器相关图标）+ jQuery（快速编写js脚本）+ AJAX </p>
+                </p>
+             
+                
+            </div>
+            <div class="button">
+               <a href="https://github.com/kris12138/163-music" class="code">code</a>
+               <a href="https://kris12138.github.io/163-music/src/index.html" class="view">view</a>
+
+            </div>
+ 
+
+        </div>
+
+
+
+        <div class="pro2">
+            <div class="name">购物商城</div>
+            <div class="img"><ul>
+                <li><img src="./img/shop_index.png" alt=""></li>
+
+                <li><img src="./img/shop_category.png" alt=""></li>
+                <li><img src="./img/card.png" alt=""></li>
+            </ul></div>
+            <div class="content">
+                <p>购物商城包含首页、目录分类页、商品搜索列表页、商品详情页、购物车页面。所有的数据，都是应用mockjs，通过axios发送异步请求来获取到的模拟的数据，这是模仿真实的开发环境下的操作</p>
+                <p >技术栈： Vue + Webpack + mockjs 
+                </p>
+           
+            </div>
+            <div class="button">
+               <a href="https://github.com/kris12138/shopping" class="code">code</a>
+               <a href="https://kris12138.github.io/shopping/dist/index.html" class="view">view</a>
+
+            </div>
+ 
+
+        </div>
+    </div>
+    <div class="page4 page">
+        <ul>
+                <li>GitHub：https://github.com/kris12138</li>
+
+            <li>邮箱：542704841@qq.com</li>
+            <li>电话：18018982878</li>
+          
+        </ul>
+    </div>
+    <script src="1.js"></script>
+    
+</body>
+</html>
