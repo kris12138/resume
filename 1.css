@@ -110,7 +110,7 @@ a,ul,li{
 .page1>.left{
     position: absolute;
     transform: rotate(35deg);
-    right: 285px;
+    right: 325px;
     height: 831px;
     background-color: #18BA9F;
     color: #18BA9F;
@@ -120,7 +120,7 @@ a,ul,li{
 .page1>.right{
     position: absolute;
     transform: rotate(-35deg);
-    left: 285px;
+    left: 345px;
     height: 831px;
     background-color: #18BA9F;
     color: #18BA9F;
@@ -137,55 +137,55 @@ a,ul,li{
 .page1>.dots>ul>li:nth-child(4){
     position: absolute;
     top: 430px;
-    right: 595px;
+    right: 695px;
   
 }
 .page1>.dots>ul>li:nth-child(3){
     position: absolute;
     top: 310px;
-    right: 685px;
+    right: 775px;
   
 }
 .page1>.dots>ul>li:nth-child(2){
     position: absolute;
     top: 190px;
-    right: 765px;
+    right: 865px;
   
 }
 .page1>.dots>ul>li:nth-child(1){
     position: absolute;
     top: 70px;
-    right: 855px;
+    right: 950px;
   
 }
 .page1>.dots>ul>li:nth-child(5){
     position: absolute;
-    top: 550px;
-    left: 515px;
+    top: 620px;
+    left: 575px;
   
 }
 .page1>.dots>ul>li:nth-child(6){
     position: absolute;
     top: 430px;
-    left: 595px;
+    left: 715px;
   
 }
 .page1>.dots>ul>li:nth-child(7){
     position: absolute;
     top: 310px;
-    left: 685px;
+    left: 795px;
   
 }
 .page1>.dots>ul>li:nth-child(8){
     position: absolute;
     top: 190px;
-    left: 765px;
+    left: 875px;
   
 }
 .page1>.dots>ul>li:nth-child(9){
     position: absolute;
     top: 70px;
-    left: 850px;
+    left: 960px;
   
 }
 
@@ -196,56 +196,56 @@ font-size: 24px;
 .page1>.detail>ul>li:nth-child(1){
     position: absolute;
     top: 70px;
-    right: 875px;
+    right: 985px;
 
 }
 .page1>.detail>ul>li:nth-child(2){
     position: absolute;
     top: 190px;
-    right: 790px;
+    right: 890px;
 
 }
 .page1>.detail>ul>li:nth-child(3){
     position: absolute;
     top: 310px;
-    right: 705px;
+    right: 795px;
 
 }
 .page1>.detail>ul>li:nth-child(4){
     position: absolute;
     top: 430px;
-    right: 620px;
+    right: 720px;
 
 }
 .page1>.detail>ul>li:nth-child(5){
     position: absolute;
-    top: 570px;
-    right: 400px;
+    top: 650px;
+    right: 430px;
 
 }
 
 .page1>.detail>ul>li:nth-child(9){
     position: absolute;
     top: 70px;
-    left: 875px;
+    left: 985px;
 
 }
 .page1>.detail>ul>li:nth-child(8){
     position: absolute;
     top: 190px;
-    left: 790px;
+    left: 900px;
 
 }
 .page1>.detail>ul>li:nth-child(7){
     position: absolute;
     top: 310px;
-    left: 705px;
+    left: 815px;
 
 }
 .page1>.detail>ul>li:nth-child(6){
     position: absolute;
     top: 430px;
-    left: 620px;
+    left: 735px;
 
 }
 .page2{
